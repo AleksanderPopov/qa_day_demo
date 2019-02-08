@@ -5,10 +5,11 @@
     "allure": "allure generate --clean --output ./build/allure-report ./build/allure-results"
   },
   "dependencies": {
-    "typescript": "3.1.6",
-    "jasmine": "3.3.0",
     "@types/jasmine": "2.6.0",
+    "allure-cookies": "0.1.0",
+    "chromedriver": "^2.46.0",
+    "jasmine": "3.3.0",
     "selenidejs": "0.2.5",
-    "allure-cookies": "0.1.0"
+    "typescript": "3.1.6"
   }
 }

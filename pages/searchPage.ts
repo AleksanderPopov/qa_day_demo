@@ -10,7 +10,7 @@ export class SearchPage {
 
     @ScreenedStep()
     async search(text) {
-        await Browser.element('#lst-ib').setValue(text)
+        await Browser.element('.gLFyf.gsfi').setValue(text)
             .then(perform.pressEnter);
     }
 }
